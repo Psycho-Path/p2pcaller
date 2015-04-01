@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18F3FB9BF69AB63F235699D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC291B1F7A9F147FBCFF1A8 /* main.m */; };
+		196CB2F8B54002209BAA5E4F /* CallViewController+UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CD75601140DD5E8FF6094C /* CallViewController+UI.m */; };
+		20FD02905FFD1D8A07687987 /* Sinch.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A5D2AF16AEF303B418DB930 /* Sinch.xcassets */; };
+		23B4BE8C63D926A612FC3CBB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC599AC8E20C8CE26168FDC0 /* Security.framework */; };
+		2C376FAA5F58182FD74E6A6A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C3F4B22A23C46C616993DA /* AudioToolbox.framework */; };
+		2C9C06931B211BE0EAC45822 /* MainStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840BE328C93E653E866E14CF /* MainStoryBoard.storyboard */; };
+		59CE6F78FCC360547C377DC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C87A8F264EDCCA8F1DB9750 /* AppDelegate.m */; };
+		6A5C87B4015F8AA04FF7835A /* CallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 146EF343EC1195DA690ED7E0 /* CallViewController.m */; };
+		7997238F0BA58ADED3D0729E /* ringback.wav in Resources */ = {isa = PBXBuildFile; fileRef = AC0B43580F62DC38DF80349B /* ringback.wav */; };
+		818205A44A548796C40C28C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 942791CFEE305BC79E3AA846 /* UIKit.framework */; };
+		85EECF53A9DEDC7C11491730 /* SINUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18944EC73EFC790F619E5AD /* SINUIViewController.m */; };
+		8736409EF17E0EFFB48CE11F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 755D5E6F1C1510EB91A15CDD /* LoginViewController.m */; };
+		890970C07F44B18913CC9092 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 025D8459675BCC18647D7750 /* Foundation.framework */; };
+		8ED2D2CCEE9CE75F061ACAC1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30E3531740B3F2DFDED1925 /* SystemConfiguration.framework */; };
+		94BDEA3D886CD83E43CB7207 /* MainViewController+UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 594D6FD9D2D0AADEA37A2E02 /* MainViewController+UI.m */; };
+		A81EC738F9A5F04E4130F44F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9E183A7FE739325530DED2 /* MainViewController.m */; };
+		AFD3D1A37353D8D3A6CBA220 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 858CDB607F162D29151DE477 /* AVFoundation.framework */; };
+		C42405F7C8F292E89D852C60 /* AppDelegate+UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C029A121875F6629F2CD679 /* AppDelegate+UI.m */; };
+		D9EE28831ACBEED100F37FB4 /* Sinch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EE28821ACBEED100F37FB4 /* Sinch.framework */; };
+		ED537E7E522EBCC700AF6D09 /* incoming.wav in Resources */ = {isa = PBXBuildFile; fileRef = 50779136F7BCB5729E637495 /* incoming.wav */; };
+		EF6A58B70EAD96235284880E /* PaddedTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D31CE8E98A60A731A8748A /* PaddedTextField.m */; };
+		FB19B3A530E798E0829C96DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C077CD89A2BF2AB752264221 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		025D8459675BCC18647D7750 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0C370E34A702F3B909987D7F /* PaddedTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PaddedTextField.h; path = P2PCallTest/PaddedTextField.h; sourceTree = "<group>"; };
+		0E57D9FECA47F136E1989A57 /* AppDelegate+UI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+UI.h"; path = "P2PCallTest/AppDelegate+UI.h"; sourceTree = "<group>"; };
+		10D31CE8E98A60A731A8748A /* PaddedTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PaddedTextField.m; path = P2PCallTest/PaddedTextField.m; sourceTree = "<group>"; };
+		11B782B29CA8467205E1A98E /* SINUIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SINUIViewController.h; path = P2PCallTest/SINUIViewController.h; sourceTree = "<group>"; };
+		146EF343EC1195DA690ED7E0 /* CallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CallViewController.m; path = P2PCallTest/CallViewController.m; sourceTree = "<group>"; };
+		1AF55C9B3E306012ACBFCFF0 /* CallViewController+UI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CallViewController+UI.h"; path = "P2PCallTest/CallViewController+UI.h"; sourceTree = "<group>"; };
+		3F15F04A3DE027EB22335DC2 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Prefix.pch; path = P2PCallTest/Prefix.pch; sourceTree = "<group>"; };
+		4A5D2AF16AEF303B418DB930 /* Sinch.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Sinch.xcassets; path = P2PCallTest/Sinch.xcassets; sourceTree = "<group>"; };
+		50779136F7BCB5729E637495 /* incoming.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = incoming.wav; path = P2PCallTest/incoming.wav; sourceTree = "<group>"; };
+		578F96AF4F91F77EA1692297 /* P2PCallTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = P2PCallTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		594D6FD9D2D0AADEA37A2E02 /* MainViewController+UI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MainViewController+UI.m"; path = "P2PCallTest/MainViewController+UI.m"; sourceTree = "<group>"; };
+		5D4DF5A631A98D00233ADFA9 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = P2PCallTest/MainViewController.h; sourceTree = "<group>"; };
+		5EC291B1F7A9F147FBCFF1A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = P2PCallTest/main.m; sourceTree = "<group>"; };
+		755D5E6F1C1510EB91A15CDD /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = P2PCallTest/LoginViewController.m; sourceTree = "<group>"; };
+		76CD75601140DD5E8FF6094C /* CallViewController+UI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CallViewController+UI.m"; path = "P2PCallTest/CallViewController+UI.m"; sourceTree = "<group>"; };
+		77D9F31EB945DFAD95B0219D /* CallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CallViewController.h; path = P2PCallTest/CallViewController.h; sourceTree = "<group>"; };
+		7C029A121875F6629F2CD679 /* AppDelegate+UI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+UI.m"; path = "P2PCallTest/AppDelegate+UI.m"; sourceTree = "<group>"; };
+		7C87A8F264EDCCA8F1DB9750 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = P2PCallTest/AppDelegate.m; sourceTree = "<group>"; };
+		840BE328C93E653E866E14CF /* MainStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = MainStoryBoard.storyboard; path = P2PCallTest/MainStoryBoard.storyboard; sourceTree = "<group>"; };
+		858CDB607F162D29151DE477 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		942791CFEE305BC79E3AA846 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A4A2F1C1657DB131E85BC5EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = P2PCallTest/AppDelegate.h; sourceTree = "<group>"; };
+		AC0B43580F62DC38DF80349B /* ringback.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ringback.wav; path = P2PCallTest/ringback.wav; sourceTree = "<group>"; };
+		B18944EC73EFC790F619E5AD /* SINUIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SINUIViewController.m; path = P2PCallTest/SINUIViewController.m; sourceTree = "<group>"; };
+		BC599AC8E20C8CE26168FDC0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C077CD89A2BF2AB752264221 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = P2PCallTest/Images.xcassets; sourceTree = "<group>"; };
+		C30E3531740B3F2DFDED1925 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C96E2BF67A3CEC9E07995480 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = P2PCallTest/LoginViewController.h; sourceTree = "<group>"; };
+		CF93F47BE54E5F88FC3DB4E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = P2PCallTest/Info.plist; sourceTree = "<group>"; };
+		D9EE28821ACBEED100F37FB4 /* Sinch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sinch.framework; sourceTree = "<group>"; };
+		F0C3F4B22A23C46C616993DA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FA9E183A7FE739325530DED2 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = P2PCallTest/MainViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46E6C44AA04238621D1E56CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9EE28831ACBEED100F37FB4 /* Sinch.framework in Frameworks */,
+				AFD3D1A37353D8D3A6CBA220 /* AVFoundation.framework in Frameworks */,
+				2C376FAA5F58182FD74E6A6A /* AudioToolbox.framework in Frameworks */,
+				890970C07F44B18913CC9092 /* Foundation.framework in Frameworks */,
+				23B4BE8C63D926A612FC3CBB /* Security.framework in Frameworks */,
+				8ED2D2CCEE9CE75F061ACAC1 /* SystemConfiguration.framework in Frameworks */,
+				818205A44A548796C40C28C3 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		161EE873E494BD22D269ED1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9EE28821ACBEED100F37FB4 /* Sinch.framework */,
+				858CDB607F162D29151DE477 /* AVFoundation.framework */,
+				F0C3F4B22A23C46C616993DA /* AudioToolbox.framework */,
+				025D8459675BCC18647D7750 /* Foundation.framework */,
+				BC599AC8E20C8CE26168FDC0 /* Security.framework */,
+				C30E3531740B3F2DFDED1925 /* SystemConfiguration.framework */,
+				942791CFEE305BC79E3AA846 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A998872A634437CFB73755C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E57D9FECA47F136E1989A57 /* AppDelegate+UI.h */,
+				7C029A121875F6629F2CD679 /* AppDelegate+UI.m */,
+				1AF55C9B3E306012ACBFCFF0 /* CallViewController+UI.h */,
+				76CD75601140DD5E8FF6094C /* CallViewController+UI.m */,
+				C077CD89A2BF2AB752264221 /* Images.xcassets */,
+				CF93F47BE54E5F88FC3DB4E5 /* Info.plist */,
+				840BE328C93E653E866E14CF /* MainStoryBoard.storyboard */,
+				594D6FD9D2D0AADEA37A2E02 /* MainViewController+UI.m */,
+				0C370E34A702F3B909987D7F /* PaddedTextField.h */,
+				10D31CE8E98A60A731A8748A /* PaddedTextField.m */,
+				3F15F04A3DE027EB22335DC2 /* Prefix.pch */,
+				11B782B29CA8467205E1A98E /* SINUIViewController.h */,
+				B18944EC73EFC790F619E5AD /* SINUIViewController.m */,
+				4A5D2AF16AEF303B418DB930 /* Sinch.xcassets */,
+				50779136F7BCB5729E637495 /* incoming.wav */,
+				5EC291B1F7A9F147FBCFF1A8 /* main.m */,
+				AC0B43580F62DC38DF80349B /* ringback.wav */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C89FACD3041247E231AA32D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				578F96AF4F91F77EA1692297 /* P2PCallTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE0522BF53A4DE62F71B2A90 = {
+			isa = PBXGroup;
+			children = (
+				161EE873E494BD22D269ED1D /* Frameworks */,
+				C89FACD3041247E231AA32D5 /* Products */,
+				F30EEC5EB3F1F00355371779 /* Classes */,
+			);
+			sourceTree = "<group>";
+		};
+		F30EEC5EB3F1F00355371779 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A4A2F1C1657DB131E85BC5EC /* AppDelegate.h */,
+				7C87A8F264EDCCA8F1DB9750 /* AppDelegate.m */,
+				77D9F31EB945DFAD95B0219D /* CallViewController.h */,
+				146EF343EC1195DA690ED7E0 /* CallViewController.m */,
+				C96E2BF67A3CEC9E07995480 /* LoginViewController.h */,
+				755D5E6F1C1510EB91A15CDD /* LoginViewController.m */,
+				5D4DF5A631A98D00233ADFA9 /* MainViewController.h */,
+				FA9E183A7FE739325530DED2 /* MainViewController.m */,
+				4A998872A634437CFB73755C /* Supporting Files */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC98C3BA92A8E52CF22BD81C /* P2PCallTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C96C4DF31DDFD1FFDDCE529 /* Build configuration list for PBXNativeTarget "P2PCallTest" */;
+			buildPhases = (
+				0220DACF0D66F5121EE3288E /* Resources */,
+				F923315EAC5B12B1449E69DB /* Sources */,
+				46E6C44AA04238621D1E56CB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = P2PCallTest;
+			productName = SinchCalling;
+			productReference = 578F96AF4F91F77EA1692297 /* P2PCallTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7ADEF68A913C8D74B04B8DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 4F0A6BC8EAAF4CC262894060 /* Build configuration list for PBXProject "P2PCallTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DE0522BF53A4DE62F71B2A90;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC98C3BA92A8E52CF22BD81C /* P2PCallTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0220DACF0D66F5121EE3288E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB19B3A530E798E0829C96DF /* Images.xcassets in Resources */,
+				2C9C06931B211BE0EAC45822 /* MainStoryBoard.storyboard in Resources */,
+				20FD02905FFD1D8A07687987 /* Sinch.xcassets in Resources */,
+				ED537E7E522EBCC700AF6D09 /* incoming.wav in Resources */,
+				7997238F0BA58ADED3D0729E /* ringback.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F923315EAC5B12B1449E69DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42405F7C8F292E89D852C60 /* AppDelegate+UI.m in Sources */,
+				59CE6F78FCC360547C377DC1 /* AppDelegate.m in Sources */,
+				196CB2F8B54002209BAA5E4F /* CallViewController+UI.m in Sources */,
+				6A5C87B4015F8AA04FF7835A /* CallViewController.m in Sources */,
+				8736409EF17E0EFFB48CE11F /* LoginViewController.m in Sources */,
+				94BDEA3D886CD83E43CB7207 /* MainViewController+UI.m in Sources */,
+				A81EC738F9A5F04E4130F44F /* MainViewController.m in Sources */,
+				EF6A58B70EAD96235284880E /* PaddedTextField.m in Sources */,
+				85EECF53A9DEDC7C11491730 /* SINUIViewController.m in Sources */,
+				18F3FB9BF69AB63F235699D6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1BC07D0E04C38D24D6D82A5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					..,
+					"$(PROJECT_DIR)",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					_DEBUG,
+					"DEBUG=1",
+				);
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GCC_WARN_PEDANTIC = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/P2PCallTest/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(SDKROOT)/System/Library/Frameworks",
+					.,
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-Xlinker",
+					"-lc++",
+				);
+				PRODUCT_NAME = P2PCallTest;
+				SINCH_FRAMEWORK_RELATIVE_PATH = ..;
+				WRAPPER_PREFIX = "";
+			};
+			name = Debug;
+		};
+		58D47A4D7DB9481CC51CBB56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					..,
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					NDEBUG,
+					"NS_BLOCK_ASSERTIONS=1",
+				);
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GCC_WARN_PEDANTIC = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/P2PCallTest/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(SDKROOT)/System/Library/Frameworks",
+					.,
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-Xlinker",
+					"-lc++",
+				);
+				PRODUCT_NAME = P2PCallTest;
+				SINCH_FRAMEWORK_RELATIVE_PATH = ..;
+				WRAPPER_PREFIX = "";
+			};
+			name = Release;
+		};
+		A0AA51B10D0E9E6EE5D5E9AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+			};
+			name = Debug;
+		};
+		EEED69D9ACDCAC7E9AE306DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				SDKROOT = iphoneos;
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C96C4DF31DDFD1FFDDCE529 /* Build configuration list for PBXNativeTarget "P2PCallTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BC07D0E04C38D24D6D82A5C /* Debug */,
+				58D47A4D7DB9481CC51CBB56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Debug;
+		};
+		4F0A6BC8EAAF4CC262894060 /* Build configuration list for PBXProject "P2PCallTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0AA51B10D0E9E6EE5D5E9AB /* Debug */,
+				EEED69D9ACDCAC7E9AE306DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7ADEF68A913C8D74B04B8DA /* Project object */;
+}
